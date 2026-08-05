@@ -1,0 +1,52 @@
+[project]
+name = "EEG-ISR"
+version = "0.1.0"
+description = "Imagined speech recognition through EEG signals"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Ashrith Sagar Yedlapalli", email = "ashrith9sagar@gmail.com" },
+]
+keywords = [
+    "eeg",
+    "eeg-signals",
+    "eeg-classification",
+    "imagined-speech",
+    "covert-speech",
+    "karaone",
+    "feis",
+]
+requires-python = ">=3.13"
+dependencies = [
+    "antropy>=0.1.9",
+    "dask[complete]>=2025.12.0",
+    "graphviz>=0.21",
+    "imbalanced-learn>=0.14.1",
+    "microsoft-python-type-stubs",
+    "mne>=1.11.0",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "pydot>=4.0.1",
+    "rich>=14.2.0",
+    "sacred>=0.8.7",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.16.3",
+    "tensorflow>=2.20.0",
+    "tftb>=0.1.4",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "jupyter-ruff>=0.2.0",
+    "jupyterlab>=4.5.1",
+    "ruff>=0.14.10",
+]
+
+[tool.uv.sources]
+microsoft-python-type-stubs = { git = "https://github.com/microsoft/python-type-stubs.git" }

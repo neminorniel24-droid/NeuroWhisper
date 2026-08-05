@@ -1,0 +1,10 @@
+venv/
+files/Data/
+files/Features/
+files/TFR/
+files/Models/
+files/Sacred/
+__pycache__/
+*.pyc
+.DS_Store
+config.yaml
