@@ -45,6 +45,7 @@ dev = [
     "jupyter>=1.1.1",
     "jupyter-ruff>=0.2.0",
     "jupyterlab>=4.5.1",
+    "pytest>=9.0.0",
     "ruff>=0.14.10",
 ]
 
