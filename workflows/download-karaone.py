@@ -1,3 +1,4 @@
+# NOTE: part of NeuroWhisper pipeline (see docs/notes/pipeline-notes.md)
 """
 download-karaone.py
 Download the KaraOne database from it's website.
