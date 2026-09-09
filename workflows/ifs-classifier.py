@@ -1,3 +1,4 @@
+# NOTE: part of NeuroWhisper pipeline (see docs/notes/pipeline-notes.md)
 """
 ifs-classifier.py
 Run a classifier on the effective features extracted from the dataset.
