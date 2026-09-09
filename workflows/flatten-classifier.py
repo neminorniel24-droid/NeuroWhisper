@@ -1,3 +1,4 @@
+# NOTE: part of NeuroWhisper pipeline (see docs/notes/pipeline-notes.md)
 """
 flatten-classifier.py
 Run a classifier on the flattened features extracted from the dataset.
