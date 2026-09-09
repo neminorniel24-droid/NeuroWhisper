@@ -1,3 +1,4 @@
+# NOTE: part of NeuroWhisper pipeline (see docs/notes/pipeline-notes.md)
 """
 tfr_ds-karaone.py
 Create a Time-Frequency Representation (TFR) dataset from KaraOne database.
