@@ -1,3 +1,4 @@
+# NOTE: part of NeuroWhisper pipeline (see docs/notes/pipeline-notes.md)
 """
 features-feis.py
 Extraction of features from FEIS dataset.
