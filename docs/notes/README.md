@@ -13,3 +13,7 @@
 - testing-strategy.md / reproducibility.md
 - faq.md / glossary.md / roadmap.md / limitations.md / ethics.md
 - citation.md / project-metadata.md / future-work.md / code-style.md
+- baseline-experiment-plan.md
+- channel-groups.md / label-reference.md
+- metrics-reference.md / data-integrity-checklist.md
+- model-comparison-plan.md / windowing-notes.md
