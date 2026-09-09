@@ -165,7 +165,7 @@ class KaraOneDataLoader(DatasetLoader):
 
         data_dir = self.raw_data_dir
         eeglab_raw_filename = glob.glob(os.path.join(data_dir, subject, "*.set"))
-        eeglab_raw_file = os.path.join(data_dir, subject, eeglab_raw_filename[0])
+        eeglab_raw_file = eeglab_raw_filename[0]
         self.raw = mne.io.read_raw_eeglab(
             eeglab_raw_file, montage_units="mm", verbose=verbose or "critical"
         )
