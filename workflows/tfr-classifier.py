@@ -1,3 +1,4 @@
+# NOTE: part of NeuroWhisper pipeline (see docs/notes/pipeline-notes.md)
 """
 tfr-classifier.py
 Run classifier on the TFR dataset
