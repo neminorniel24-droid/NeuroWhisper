@@ -1,3 +1,4 @@
+# NOTE: part of NeuroWhisper pipeline (see docs/notes/pipeline-notes.md)
 """
 eeg-acoustic-correlation.py
 Compute the mean pearson correlations between Acoustic and EEG features for each channel.
